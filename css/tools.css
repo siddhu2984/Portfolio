@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Graphik;
+    font-weight: 100;
+    src: url(/assets/fonts/Graphik/GraphikThin.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 300;
+    src: url(/assets/fonts/Graphik/GraphikLight.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 400;
+    src: url(/assets/fonts/Graphik/GraphikRegular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 500;
+    src: url(/assets/fonts/Graphik/GraphikMedium.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 600;
+    src: url(/assets/fonts/Graphik/GraphikSemibold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 700;
+    src: url(/assets/fonts/Graphik/GraphikBold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 800;
+    src: url(/assets/fonts/Graphik/GraphikBlack.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Graphik;
+    font-weight: 900;
+    src: url(/assets/fonts/Graphik/GraphikSuper.otf) format("opentype");
+}
+
+.our-expertise {
+    background-color: #ffe4ee;
+    padding: 40px 0;
+}
+
+.our-expertise .headings span {
+    color: #ff7604;
+}
+
+.service-column-wrap {
+    margin-top: 35px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.service-thumb-wrap {
+    max-width: 128px;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-box-shadow: 0 0 28px 0 rgba(180, 17, 78, 0.22);
+    box-shadow: 0 0 28px 0 rgba(180, 17, 78, 0.22);
+}
+
+.service-thumb-wrap:hover {
+    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+}
+
+@media (min-width: 992px) {
+    .case-studies-carousel .owl-dots {
+        width: 33px;
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        bottom: unset;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+    }
+    .case-studies .case-studies-content {
+        width: 80%;
+    }
+    .case-studies-carousel .owl-dots button {
+        width: 33px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+.about-img {
+    height: 280px;
+}
+
+@media (min-width: 992px) {
+    .about-img {
+        height: unset;
+    }
+}
+
+.tech-icons {
+    height: 50px;
+    width: 50px;
+}
+
+@media (min-width: 576px) {
+    .service-thumb-wrap {
+        margin-bottom: 15px;
+    }
+}
+
+.iframe-banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(1.3);
+}
